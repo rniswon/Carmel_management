@@ -2,7 +2,7 @@
 # Using external text files with key word option 
 TABLEINPUT
          1         0                                     # NLAKES,ILKCB                
-   -0.8000       100   0.00001  0.1                      # THETA,NSSITER,SSCNCR     
+   -0.9500       100   0.00001  1.0                      # THETA,NSSITER,SSCNCR     
      317.2       23                                      # STAGES,IUNITLAKTAB   (Los Padres)  
          1         0         0                           # INPUT/OUTPUT OPTIONS        
     INTERNAL          1 (FREE)                      3    # LAKE POSITION ARRAY,LAYER 1 

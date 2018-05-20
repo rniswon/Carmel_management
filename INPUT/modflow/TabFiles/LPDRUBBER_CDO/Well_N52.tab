@@ -1,11 +1,25 @@
 # Well Pumping Time Series Data for Well N52 : N52
-# Start Date 1990
-# Transient Simulation
-# Created on 09-May-2017 20:26:41
+# Start Date 1991
+# Steady State Simulation
+# Created on 18-May-2018 13:19:15
 # Column-1: Time in days from start date
 # Column-2: Pumping Volume in cubic meters
-         0  0.00
-      8400 -36.47
-      8430 -13.94
-      8550 -49.34
-      8610 -33.25
+         0 -38.61
+      8070 -38.61
+      8100 -14.76
+      8220 -52.24
+      8280 -35.20
+      8310 -49.97
+      8340 -32.93
+      8370 -1.14
+      8400 -9.08
+      8430 -14.76
+      8460 -27.25
+      8490 -32.93
+      8520 -35.20
+      8550 -39.75
+      8580 -38.61
+      8610 -24.98
+      8640 -38.61
+      8640 -18.17
+      8640 -17.03
