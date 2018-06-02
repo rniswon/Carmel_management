@@ -15,7 +15,7 @@ start_time
 1
 1991
 10
-1
+2
 0
 0
 0
@@ -28,7 +28,7 @@ end_time
 30
 0
 0
-0
+0   
 ####
 modflow_time_zero
 6
@@ -330,7 +330,7 @@ init_vars_from_file
 var_init_file
 1
 4
-.\input\prms\prms_carmel.in
+.\input\prms\LPDREM\prms_carmel.in
 ####
 save_vars_to_file
 1

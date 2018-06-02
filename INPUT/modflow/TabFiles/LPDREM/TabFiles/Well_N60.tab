@@ -1,0 +1,13 @@
+# Well Pumping Time Series Data for Well N60 : N60
+# Start Date 1991
+# Steady State Simulation
+# Created on 18-May-2018 13:19:15
+# Column-1: Time in days from start date
+# Column-2: Pumping Volume in cubic meters
+         0 -34.07
+      8250 -34.07
+      8280 -149.90
+      8310 -101.07
+      8490 -4.54
+      8520 -49.97
+      8640 -4.54

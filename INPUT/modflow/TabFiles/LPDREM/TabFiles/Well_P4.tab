@@ -1,0 +1,26 @@
+# Well Pumping Time Series Data for Well P4 : P4
+# Start Date 1991
+# Steady State Simulation
+# Created on 18-May-2018 13:19:16
+# Column-1: Time in days from start date
+# Column-2: Pumping Volume in cubic meters
+         0 -11.36
+      8160 -11.36
+      8190 -11.36
+      8220 -7.95
+      8250 -22.71
+      8280 -18.17
+      8310 -9.08
+      8340 -21.58
+      8370 -5.68
+      8400 -12.49
+      8460 -28.39
+      8490 -23.85
+      8520 -20.44
+      8550 -17.03
+      8580 -13.63
+      8610 -6.81
+      8640 -29.53
+      8640 -14.76
+      8640 -13.63
+      8640 -6.81

@@ -1,0 +1,16 @@
+# Well Pumping Time Series Data for Well T26 : T26
+# Start Date 1991
+# Steady State Simulation
+# Created on 18-May-2018 13:19:16
+# Column-1: Time in days from start date
+# Column-2: Pumping Volume in cubic meters
+         0 -7.95
+      7560 -7.95
+      7590 -29.53
+      7890 -7.95
+      7920 -29.53
+      8010 -0.23
+      8220 -24.98
+      8250 -19.31
+      8280 -18.17
+      8310 -11.36
