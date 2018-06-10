@@ -15,7 +15,7 @@ start_time
 1
 1991
 10
-2
+1
 0
 0
 0
@@ -58,7 +58,7 @@ data_file
 param_file
 2
 4
-.\INPUT\prms\LPDREM\carmel_main.param
+.\INPUT\prms\LPDREM\carmel_main_scaled.param
 .\INPUT\prms\hrucascades.params
 ####
 modflow_name
