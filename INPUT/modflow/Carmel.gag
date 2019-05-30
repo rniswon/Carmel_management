@@ -1,4 +1,4 @@
-21                               # NUMGAGE
+22                              # NUMGAGE
  1826 2 96 4                     # ALP  ISEG  IREACH  UNIT  OUTTYPE  GAGE ABBREVIATION
  103  2 75 4                     # H1   ISEG  IREACH  UNIT  OUTTYPE  GAGE ABBREVIATION
  141  3 76 4                     # LA   ISEG  IREACH  UNIT  OUTTYPE  GAGE ABBREVIATION
@@ -15,8 +15,9 @@
 1188  7 87 4                     # CL   ISEG  IREACH  UNIT  OUTTYPE  GAGE ABBREVIATION
 1506  2 88 4                     # PI   ISEG  IREACH  UNIT  OUTTYPE  GAGE ABBREVIATION
 1564  3 89 4                     # CA   ISEG  IREACH  UNIT  OUTTYPE  GAGE ABBREVIATION
-1684  1 90 4                     # BL   ISEG  IREACH  UNIT  OUTTYPE  GAGE ABBREVIATION
-1840  3 91 4                     # LP   ISEG  IREACH  UNIT  OUTTYPE  GAGE ABBREVIATION
+1599  5 90 4                     # BL   ISEG  IREACH  UNIT  OUTTYPE  GAGE ABBREVIATION
+1684  1 91 4                     # RL   ISEG  IREACH  UNIT  OUTTYPE  GAGE ABBREVIATION
+1840  3 92 4                     # LP   ISEG  IREACH  UNIT  OUTTYPE  GAGE ABBREVIATION
 285   1 100 4                     # Narrows   GAGESEG  GAGERCH  UNIT  OUTTYPE  GAGE ABBREVIATION   
 1536  1 101 4                     # Carmel below Cachagua   GAGESEG  GAGERCH  UNIT  OUTTYPE  GAGE ABBREVIATION
 -1  -95   3                      # LOS PADRES RESERVOIR GAGLAKE UNIT OUTTYPE
