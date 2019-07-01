@@ -1,0 +1,1 @@
+Model configured to simulate the current state of Los Padres Reservoir with a water right of 3,376 afy, which reflects the Cease and Desist Order (Baseline).
