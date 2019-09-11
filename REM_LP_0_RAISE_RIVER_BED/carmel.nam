@@ -8,7 +8,6 @@ upw             15   .\INPUT\modflow\carmel.upw
 nwt             16   .\INPUT\modflow\carmel.nwt
 oc              17   .\INPUT\modflow\carmel.oc
 sfr             18   .\INPUT\modflow\carmel_rise.sfr
-data            23   .\INPUT\modflow\lak_support\LP_bath2008.dat
 uzf             21   .\INPUT\modflow\carmel.uzf
 hob             22   .\INPUT\modflow\carmel.hob
 data            33   .\OUTPUT\hobsout.dat     
