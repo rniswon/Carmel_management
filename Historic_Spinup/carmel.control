@@ -5,6 +5,11 @@ parameter_check_flag
 1
 0
 ####
+dprst_flag
+1
+1
+1
+####
 model_mode
 1
 4
@@ -384,11 +389,6 @@ capillary_module
 1
 4
 soilzone_prms
-####
-dprst_flag
-1
-1
-1
 ####
 gravity_module
 1
