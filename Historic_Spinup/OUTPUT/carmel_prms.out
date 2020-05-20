@@ -1,6 +1,36 @@
+====================================================================
+Using PRMS Parameter File: .\INPUT\prms\carmel_main.param
+Description: Carmel Model 2sta
+====================================================================
+Comment lines:
+Version: Git
+====================================================================
+Using dimensions    number
+ncascade          109057
+ncascdgw          109057
+ndays                366
+ndepl                  2
+ndeplval              22
+ngw               133168
+ngwcell           133168
+nhru              133168
+nhrucell          133168
+nlake                  1
+numlakes               1
+nmonths               12
+nobs                  17
+nrain                  1
+nreach             10793
+nsegment            2440
+nssr              133168
+nsub                  17
+ntemp                  2
+one                    1
+nratetbl               0
+====================================================================
 
                Precipitation-Runoff Modeling System (PRMS)
-                       Version 5.0.0 06/01/2018
+                       Version 5.2.0 03/19/2020
 
         Process            Available Modules
 --------------------------------------------------------------------
@@ -11,7 +41,7 @@
   Temperature Dist: temp_1sta, temp_laps, temp_dist2, climate_hru
        Precip Dist: precip_1sta, precip_laps, precip_dist2,
                     climate_hru
-Temp & Precip Dist: xyz_dist, ide_dist
+Temp & Precip Dist: xyz_dist, ide_dist, precip_temp_grid
     Solar Rad Dist: ccsolrad, ddsolrad, climate_hru
 Transpiration Dist: transp_tindex, climate_hru, transp_frost
       Potential ET: potet_hamon, potet_jh, potet_pan, climate_hru,
@@ -22,7 +52,7 @@ Transpiration Dist: transp_tindex, climate_hru, transp_frost
          Soil Zone: soilzone
        Groundwater: gwflow
 Streamflow Routing: strmflow, strmflow_in_out, muskingum,
-                    muskingum_lake
+                    muskingum_lake, muskingum_mann
 Stream Temperature: stream_temp
     Output Summary: basin_sum, subbasin, map_results, prms_summary,
                     nhru_summary, nsub_summary, water_balance
@@ -35,30 +65,78 @@ Stream Temperature: stream_temp
 
         Process                   Module                Version Date
 ====================================================================
-GSFLOW Computation Order       gsflow_prms                2018-06-25
-Basin Definition               basin                      2018-04-06
-Cascading Flow                 cascade                    2018-05-25
-Common States and Fluxes       climateflow                2018-04-25
-Potential Solar Radiation      soltab                     2016-09-09
-PRMS Set Time Variables        prms_time                  2015-03-31
+GSFLOW Computation Order       gsflow_prms                2020-03-20
+Read Control File              read_control_file          2018-06-07
+Read Parameter File            read_parameter_file        2017-09-27
+Read Data File                 read_data_file             2019-12-02
+
+
+====================================================================
+Using PRMS Data File: .\INPUT\prms\carmel.data
+Title: Created by J. Juntington 1/20/16.
+====================================================================
+Comment lines:
+////////////////////////////////////////////////////////////
+// Station metadata (listed in the same order as the data):
+// ID                             Type                Latitude     Longitude
+// 041534 Carmel Valley COOP      tasmax              36.4806      -121.724
+// DAYMET at Hastings RAWS        tasmax              36.38861     -121.5517
+// 041534 Carmel Valley COOP      tasmin              36.4806      -121.724
+// DAYMET at Hastings RAWS        tasmin              36.38861     -121.5517
+// 047731 San Clemente COOP       precip              36.4375      -121.709
+// 1  Carmel River at Lagoon      runoff              36.535199    -121.925332
+// 2  Highway1Bridge              runoff              36.536332    -121.9119950
+// 3  NearCarmel(USGS)            runoff              36.539167    -121.879444
+// 4  DonJuanBridge               runoff              36.510379    -121.769497
+// 5  RoblesdelRio(USGS)          runoff              36.474444    -121.727778
+// 6  PotreroCreek                runoff              36.533301    -121.868935
+// 7  RobinsonCanyonCreek         runoff              36.517935    -121.811895
+// 8  GarzasCreek(Canyon)         runoff              36.485400    -121.757935
+// 9  GarzasCreekatGarzasRoad      runoff               36.491255    -121.751523
+// 10 HitchcockCreek              runoff              36.472956    -121.725118
+// 11 TularcitosCreek             runoff              36.458168    -121.707264
+// 12 SleepyHollowWeir            runoff              36.445331    -121.710528
+// 13 SanClementeCreek            runoff              36.432493    -121.715033
+// 14 PineCreek                   runoff              36.406486    -121.691871
+// 15 CachaguaCreek               runoff              36.400353    -121.658212
+// 16 BelowLosPadresReservoir     runoff              36.388473    -121.667519
+// 17 AboveLosPadresReservoir     runoff              36.374063    -121.662741
+/////////////////////////////////////////////////////////
+// Unit: temperature = fahrenheit, precipitation = mm per day, runoff = ft3 per
+////////////////////////////////////////////////////////////
+====================================================================
+measured variables
+tmax 2
+tmin 2
+precip 1
+runoff 17
+====================================================================
+ Data File time period: 1959/10/01 00:00:00 to 2017/09/30 00:00:00
+Simulation time period: 1991/10/01 00:00:00 to 2010/09/30 00:00:00
+====================================================================
+Basin Definition               basin                      2019-11-14
+Cascading Flow                 cascade                    2019-09-25
+Common States and Fluxes       climateflow                2020-01-10
+Potential Solar Radiation      soltab                     2019-09-25
 Time Series Data               obs                        2018-02-23
+PRMS Set Time Variables        prms_time                  2017-07-06
 Temperature Distribution       temp_1sta                  2018-01-16
 Precipitation Distribution     precip_1sta                2016-10-21
-Solar Radiation Distribution   ddsolrad                   2016-11-03
+Solar Radiation Distribution   ddsolrad                   2019-04-04
 Transpiration Distribution     transp_tindex              2015-01-06
-Potential Evapotranspiration   potet_jh                   2016-05-10
-Canopy Interception            intcp                      2018-02-26
-Snow Dynamics                  snowcomp                   2018-05-04
-Surface Runoff                 srunoff_smidx              2018-04-25
-Soil Zone Computations         soilzone                   2018-04-25
-GSFLOW PRMS to MODFLOW         gsflow_prms2mf             2017-11-15
+Potential Evapotranspiration   potet_jh                   2019-04-04
+Canopy Interception            intcp                      2020-03-03
+Snow Dynamics                  snowcomp                   2019-11-27
+Surface Runoff                 srunoff_smidx              2020-03-03
+Soil Zone Computations         soilzone                   2020-01-10
+GSFLOW PRMS to MODFLOW         gsflow_prms2mf             2019-10-30
 GSFLOW MODFLOW to PRMS         gsflow_mf2prms             2017-11-15
-GSFLOW Output Budget Summary   gsflow_budget              2018-03-02
-GSFLOW Output CSV Summary      gsflow_sum                 2018-02-12
-Output Summary                 subbasin                   2018-04-25
+GSFLOW Output Budget Summary   gsflow_budget              2019-10-30
+GSFLOW Output CSV Summary      gsflow_sum                 2019-10-31
+Output Summary                 subbasin                   2019-12-02
 ====================================================================
-GSFLOW MODFLOW main            gsflow_modflow             2018-07-06
-UZF-NWT Package                gwf2uzf1_NWT               2017-03-08
+GSFLOW MODFLOW main            gsflow_modflow             2019-10-30
+UZF-NWT Package                gwf2uzf1_NWT               2019-09-10
 SFR-NWT Package                gwf2sfr7_NWT               2017-03-08
 LAK-NWT Package                gwf2lak7_NWT               2016-07-21
 
