@@ -12,9 +12,9 @@ OPEN/CLOSE .\input\modflow\uzf_support\irunbnd.txt                1 (free)    6 
 OPEN/CLOSE .\input\modflow\uzf_support\vks.txt        5.5003245E+01 (free)    0     # VKS         # Transient for Martis is 4.0
 OPEN/CLOSE .\input\modflow\uzf_support\surfk.txt      3.2173706E-05 (free)    0     # SURFK       # 0.1*VKS
 CONSTANT   4.0                                                                      # BROOKS/COREY EPSILON (EPS)
-CONSTANT   0.40                                                                     # SATURATED WATER CONTENT (THTS)
+CONSTANT   0.45                                                                     # SATURATED WATER CONTENT (THTS)
 OPEN/CLOSE .\input\modflow\uzf_support\thtr.txt                1.00 (free)       6     # INITIAL WATER CONTENT (THTR)
-OPEN/CLOSE .\input\modflow\uzf_support\thtr.txt                1.003 (free)       6     # INITIAL WATER CONTENT (THTI)
+OPEN/CLOSE .\input\modflow\uzf_support\thtr.txt                1.001 (free)       6     # INITIAL WATER CONTENT (THTI)
 1                                                                                   # NUZF1
 OPEN/CLOSE .\INPUT\modflow\uzf_support\finf_1.txt     4.8864730E-01 (free)    0     # INFILTRATION AT TOP OF LAYER 1 (FINF) STRESS PERIOD 1
 1                                                                                   # NUZF2
