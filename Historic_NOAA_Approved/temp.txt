@@ -1,0 +1,10 @@
+# Simulation_20160812T131753
+# Created on 12-Aug-2016 13:17:55
+#
+list            12   .\OUTPUT\carmel.lst
+dis             13   .\INPUT\modflow\carmel.dis
+bas6            14   .\INPUT\modflow\carmel.bas
+upw             15   .\INPUT\modflow\carmel.upw
+nwt             16   .\INPUT\modflow\carmel.nwt
+oc              17   .\INPUT\modflow\carmel.oc
+sfr             18   .\INPUT\modflow\carmel.sfr
